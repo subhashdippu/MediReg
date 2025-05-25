@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../pages/main";
 import Home from "../pages/home";
+import PatientForm from "../components/PatientForm";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -8,7 +9,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <PatientForm />,
       },
     ],
   },
