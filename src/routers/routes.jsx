@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../pages/main";
 import Home from "../pages/home";
 import PatientForm from "../components/patientForm";
+import PatientList from "../components/patientList";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <PatientForm />,
+      },
+      {
+        path: "/patients",
+        element: <PatientList />,
       },
     ],
   },
