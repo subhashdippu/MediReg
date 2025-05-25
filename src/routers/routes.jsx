@@ -3,6 +3,7 @@ import Main from "../pages/main";
 import Home from "../pages/home";
 import PatientForm from "../components/patientForm";
 import PatientList from "../components/patientList";
+import SqlQueryExecutor from "../components/sqlQueryExecutor";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -14,7 +15,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/patients",
-        element: <PatientList />,
+        element: <Home />,
+        // element: <PatientList />,
       },
     ],
   },
