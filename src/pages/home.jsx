@@ -1,4 +1,3 @@
-import React from "react";
 import PatientList from "../components/patientList";
 import SqlQueryExecutor from "../components/sqlQueryExecutor";
 

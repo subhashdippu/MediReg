@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import db from "../db/initDB";
 import { broadcastChange } from "../db/sync";
 
