@@ -10,7 +10,7 @@ MediReg is a modern and responsive web application designed to streamline patien
 
 <img src="https://img.shields.io/badge/website-up-greene" />
 
-<pre><center><a href=""><b>  </b></a></center></pre>
+<pre><center><a href=""><b> https://medi-reg-xgnt.vercel.app </b></a></center></pre>
 
 ## Features
 
